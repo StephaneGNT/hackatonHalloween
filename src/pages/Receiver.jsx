@@ -33,7 +33,6 @@ class Receiver extends Component {
   }
 
   render() {
-    console.log("in receiver render", this.props.giversArray)
     return (
       <div className='backgroundReceiver'>{
         this.state.loggedUser ?

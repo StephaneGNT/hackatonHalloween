@@ -11,8 +11,6 @@ class Login extends Component {
       userName: '',
       password: '',
     }
-
-    console.log("in login", this.props.giversArray)
   }
 
   setNewUser=()=>{
@@ -29,9 +27,7 @@ class Login extends Component {
   }
 
   renderNewUserInfo=()=>{
-    console.log(this.props.userStatus == "receiver")
     let render=[]
-    
     
     if(this.state.newUser && this.props.userStatus == "receiver"){
       render.push(
@@ -64,20 +60,14 @@ class Login extends Component {
         <div>
           <input type="text" name="prenom" placeholder="Prénom"  onChange={this.getUserName} />
           <input type="password" name="password"  placeholder="Password"  onChange={this.getPassword} />
+          <p>To test : id="Martin", password="password"</p>
         </div>
       )
     }
     return render 
   }
 
-  /*enterPassword = (e) => {
-    if (e.key === 'Enter') {
-      this.checkLogginInfo(this.props.giversArray, this.state.userName, this.state.password)
-    }
-  }*/
-
   checkLogginInfo = (array, name, password) => {
-    console.log(this.props.giversArray)
     let users = array.map(name => name.firstName)
     let passwords = array.map(password => password.password)
     for (let i = 0; i < users.length; i++) {
@@ -91,8 +81,6 @@ class Login extends Component {
   }
 
   render() {
-    console.log("in login render", this.props.giversArray)
-
     return (
       <div id="userInfo">
         

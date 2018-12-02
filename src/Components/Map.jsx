@@ -8,9 +8,10 @@ import Schtroumpfs from "../Assets/schtroumpfs.jpg"
 import Sucette from "../Assets/sucette.jpg"
 import Carambar from "../Assets/carambar.jpg"
 import StarRatings from 'react-star-ratings';
+import apiKey from '../Assets/getAPIKey';
 export class MapContainer extends Component {
 
-  constructor(props) {
+constructor(props) {
     super(props)
 
     this.api = 'https://api-adresse.data.gouv.fr/search/?q=';
@@ -179,6 +180,7 @@ export class MapContainer extends Component {
   }
 }
 
+const localApiKey = apiKey();
 export default GoogleApiWrapper({
-  apiKey: ("AIzaSyCKY5OS2THy-jXyAZL-BDlnyQCP8DJt1sw")
+  apiKey: localApiKey,
 })(MapContainer)

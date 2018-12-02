@@ -65,7 +65,6 @@ class Bonbondex extends Component {
   }
 
   clickCandy = (selection) => {
-    console.log("clickcandy")
     if (this.state[selection].selected === false && this.checkDistance(selection)) {
       this.setState({
         [selection]:
@@ -93,7 +92,6 @@ class Bonbondex extends Component {
   }
 
   checkDistance = (selection) => {
-    console.log(this.props.receiverCoordinates, selection)
     for (let i = 0; i < this.props.giversArray.length; i++) {
 
         if (this.calculateDistance(this.props.receiverCoordinates, this.props.giverCoordinates[i]) < 400 && this.props.giversArray[i].candy[selection] && this.props.giversArray[i].available) {
@@ -113,8 +111,6 @@ class Bonbondex extends Component {
 
     const a = Math.sin(Δφ / 2) * Math.sin(Δφ / 2) + Math.cos(φ1) * Math.cos(φ2) * Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
     const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-
-    console.log(R * c)
     return R * c;
   }
 

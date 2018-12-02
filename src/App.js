@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import { Route, HashRouter, Switch } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import Receiver from './pages/Receiver';
 import Giver from './pages/Giver';
@@ -135,7 +135,6 @@ class App extends Component {
     this.giversArray = [this.giverJeanDupont, this.giverMartinDurand, this.giverPaulMachin, this.giverLouisPierre]
 
     this.userStatus = ""
-    console.log("in app", this.giversArray)
   }
 
   setUserStatus = (status) => {
@@ -148,12 +147,9 @@ class App extends Component {
   }
 
   render() {
-
-    console.log("in app render", this.giversArray)
-
     return (
       <div className="App">
-        <BrowserRouter>
+        <HashRouter>
           <Switch>
             <Route exact path="/" render={() => <HomePage />} />
             <Route 
@@ -172,7 +168,6 @@ class App extends Component {
               render={
                 () => 
                 {
-                console.log("route", this.giversArray)
                 return <Receiver
                   giversArray={this.giversArray}
                   userStatus={this.userStatus}
@@ -182,7 +177,7 @@ class App extends Component {
               }
             />
           </Switch>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     );
   }

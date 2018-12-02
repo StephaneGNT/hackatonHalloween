@@ -11,7 +11,6 @@ class Giver extends Component {
     this.state={
       loggedUser:false,
     }
-    console.log("in giver constructor", this.props.giversArray)
   }
 
   setLoggedUser=(bool)=>{
@@ -21,7 +20,6 @@ class Giver extends Component {
   }
 
   render() {
-    console.log("in giver render", this.props.giversArray)
     return (
       <div>
         <div>{
