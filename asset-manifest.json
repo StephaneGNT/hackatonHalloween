@@ -1,7 +1,7 @@
 {
   "main.css": "/hackatonHalloween/static/css/main.a0756fc9.chunk.css",
-  "main.js": "/hackatonHalloween/static/js/main.5532e1df.chunk.js",
-  "main.js.map": "/hackatonHalloween/static/js/main.5532e1df.chunk.js.map",
+  "main.js": "/hackatonHalloween/static/js/main.c73bd474.chunk.js",
+  "main.js.map": "/hackatonHalloween/static/js/main.c73bd474.chunk.js.map",
   "static/css/1.c46efe9c.chunk.css": "/hackatonHalloween/static/css/1.c46efe9c.chunk.css",
   "static/js/1.a9c395e3.chunk.js": "/hackatonHalloween/static/js/1.a9c395e3.chunk.js",
   "static/js/1.a9c395e3.chunk.js.map": "/hackatonHalloween/static/js/1.a9c395e3.chunk.js.map",
@@ -16,6 +16,6 @@
   "static/css/main.a0756fc9.chunk.css.map": "/hackatonHalloween/static/css/main.a0756fc9.chunk.css.map",
   "static/css/1.c46efe9c.chunk.css.map": "/hackatonHalloween/static/css/1.c46efe9c.chunk.css.map",
   "index.html": "/hackatonHalloween/index.html",
-  "precache-manifest.e77ac7da5889a375d3b0cc11bb5338c9.js": "/hackatonHalloween/precache-manifest.e77ac7da5889a375d3b0cc11bb5338c9.js",
+  "precache-manifest.3ebecf6210f0c937c96d66ad20b2509d.js": "/hackatonHalloween/precache-manifest.3ebecf6210f0c937c96d66ad20b2509d.js",
   "service-worker.js": "/hackatonHalloween/service-worker.js"
 }

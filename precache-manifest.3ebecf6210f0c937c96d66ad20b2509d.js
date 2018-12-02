@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/hackatonHalloween/static/media/carambar.dee7fd4c.jpg"
   },
   {
-    "revision": "5532e1df6605bd4d2ac0",
+    "revision": "c73bd474d6b597259f9c",
     "url": "/hackatonHalloween/static/css/main.a0756fc9.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/hackatonHalloween/static/media/coca.8734307c.jpg"
   },
   {
-    "revision": "5532e1df6605bd4d2ac0",
-    "url": "/hackatonHalloween/static/js/main.5532e1df.chunk.js"
+    "revision": "c73bd474d6b597259f9c",
+    "url": "/hackatonHalloween/static/js/main.c73bd474.chunk.js"
   },
   {
     "revision": "3844d4a8acbee402028f208b1604314f",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/hackatonHalloween/static/css/1.c46efe9c.chunk.css"
   },
   {
-    "revision": "204214e02d497068217c7bafbf0a5753",
+    "revision": "ced9d951a179851765281b4f95222339",
     "url": "/hackatonHalloween/index.html"
   }
 ];
