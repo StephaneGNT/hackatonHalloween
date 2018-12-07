@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/hackatonHalloween/static/media/carambar.dee7fd4c.jpg"
   },
   {
-    "revision": "c73bd474d6b597259f9c",
-    "url": "/hackatonHalloween/static/css/main.a0756fc9.chunk.css"
+    "revision": "b04e2d9bc14b798ac3ae",
+    "url": "/hackatonHalloween/static/css/main.b30f7968.chunk.css"
   },
   {
     "revision": "70a8197354f24ea50ef291ba5de9c43e",
     "url": "/hackatonHalloween/static/media/dragibus.70a81973.jpg"
   },
   {
-    "revision": "a9c395e337e5213a2d7b",
-    "url": "/hackatonHalloween/static/js/1.a9c395e3.chunk.js"
+    "revision": "283fcd0018ad82d40308",
+    "url": "/hackatonHalloween/static/js/1.283fcd00.chunk.js"
   },
   {
     "revision": "94ee4039948234eb80eb",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/hackatonHalloween/static/media/coca.8734307c.jpg"
   },
   {
-    "revision": "c73bd474d6b597259f9c",
-    "url": "/hackatonHalloween/static/js/main.c73bd474.chunk.js"
+    "revision": "b04e2d9bc14b798ac3ae",
+    "url": "/hackatonHalloween/static/js/main.b04e2d9b.chunk.js"
   },
   {
     "revision": "3844d4a8acbee402028f208b1604314f",
@@ -40,11 +40,11 @@ self.__precacheManifest = [
     "url": "/hackatonHalloween/static/media/sucette.e305c9ca.jpg"
   },
   {
-    "revision": "a9c395e337e5213a2d7b",
-    "url": "/hackatonHalloween/static/css/1.c46efe9c.chunk.css"
+    "revision": "283fcd0018ad82d40308",
+    "url": "/hackatonHalloween/static/css/1.fcb9710d.chunk.css"
   },
   {
-    "revision": "ced9d951a179851765281b4f95222339",
+    "revision": "2a1e0fbce1f97f9a6a66124bab1c507f",
     "url": "/hackatonHalloween/index.html"
   }
 ];
